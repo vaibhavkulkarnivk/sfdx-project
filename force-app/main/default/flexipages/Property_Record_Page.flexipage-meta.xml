@@ -14,6 +14,10 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentInstanceProperties>
+                <name>relatedListComponentOverride</name>
+                <value>NONE</value>
+            </componentInstanceProperties>
             <componentName>force:relatedListContainer</componentName>
         </componentInstances>
         <mode>Replace</mode>
@@ -119,6 +123,21 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>latField</name>
+                <value>Location__Latitude__s</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>longField</name>
+                <value>Location__Longitude__s</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>titleField</name>
+                <value>Name</value>
+            </componentInstanceProperties>
+            <componentName>RecordMap</componentName>
+        </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
                 <name>tabs</name>
